@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.eclipse.jetty.spdy:spdy-core:9.2.14.v20151106">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.spdy/spdy-core/9.2.14.v20151106/d7d01da96d23d3ff4447697d1b0983aa4c00acf4/spdy-core-9.2.14.v20151106.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.spdy/spdy-core/9.2.14.v20151106/8ce4e2843da5f30bf307e1da5bf703b1e0aba7aa/spdy-core-9.2.14.v20151106-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

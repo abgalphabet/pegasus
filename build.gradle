@@ -1,0 +1,51 @@
+group 'myth.chaos'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    ext.versions = [
+        kotlin: '1.1.4-3',
+        restlet: '2.3.10',
+        httpclient: '4.5.3',
+    ]
+
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}"
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'kotlin'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.typesafe:config:1.3.1'
+    compile 'com.google.inject:guice:4.1.0'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:${versions.kotlin}"
+//    compile 'org.eclipse.jetty:jetty-server:9.4.7.v20170914'
+    compile "org.restlet.jse:org.restlet:${versions.restlet}"
+    compile "org.restlet.jse:org.restlet.ext.guice:${versions.restlet}"
+    compile "org.restlet.jse:org.restlet.ext.jetty:${versions.restlet}"
+//    compile "org.restlet.jse:org.restlet.ext.servlet:${versions.restlet}"
+    compile "org.restlet.jse:org.restlet.ext.jackson:${versions.restlet}"
+    compile "org.restlet.jse:org.restlet.ext.json:${versions.restlet}"
+    compile "org.apache.httpcomponents:httpclient:${versions.httpclient}"
+    compile "org.apache.httpcomponents:fluent-hc:${versions.httpclient}"
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.assertj:assertj-core:3.8.0'
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}

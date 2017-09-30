@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wax.iml" filepath="$PROJECT_DIR$/.idea/modules/wax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wax_main.iml" filepath="$PROJECT_DIR$/.idea/modules/wax_main.iml" group="wax" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wax_test.iml" filepath="$PROJECT_DIR$/.idea/modules/wax_test.iml" group="wax" />
+    </modules>
+  </component>
+</project>

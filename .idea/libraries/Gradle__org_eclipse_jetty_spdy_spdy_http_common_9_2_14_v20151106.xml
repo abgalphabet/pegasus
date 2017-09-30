@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.eclipse.jetty.spdy:spdy-http-common:9.2.14.v20151106">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.spdy/spdy-http-common/9.2.14.v20151106/8ee0740bb5387859194d34d4a040d8475c07704/spdy-http-common-9.2.14.v20151106.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.spdy/spdy-http-common/9.2.14.v20151106/39b0bac1257206f23748ac99f7bd98d5019b20b2/spdy-http-common-9.2.14.v20151106-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
