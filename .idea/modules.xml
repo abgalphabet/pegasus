@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wax.iml" filepath="$PROJECT_DIR$/.idea/modules/wax.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wax_main.iml" filepath="$PROJECT_DIR$/.idea/modules/wax_main.iml" group="wax" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wax_test.iml" filepath="$PROJECT_DIR$/.idea/modules/wax_test.iml" group="wax" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pegasus.iml" filepath="$PROJECT_DIR$/.idea/modules/pegasus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pegasus_main.iml" filepath="$PROJECT_DIR$/.idea/modules/pegasus_main.iml" group="pegasus" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pegasus_test.iml" filepath="$PROJECT_DIR$/.idea/modules/pegasus_test.iml" group="pegasus" />
     </modules>
   </component>
 </project>

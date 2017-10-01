@@ -1,4 +1,4 @@
-group 'myth.chaos'
+group 'myth'
 version '1.0-SNAPSHOT'
 
 buildscript {

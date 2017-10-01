@@ -1,4 +1,4 @@
-package wax.web
+package pegasus.web
 
 import com.google.inject.Guice
 import com.google.inject.Injector
@@ -7,8 +7,8 @@ import org.apache.http.HttpHost
 import org.restlet.Component
 import org.restlet.data.Protocol
 import org.restlet.ext.guice.RestletGuice
-import wax.conf.MainModule
-import wax.conf.TestModule
+import pegasus.conf.MainModule
+import pegasus.conf.TestModule
 
 class TestApp {
     private val injector: Injector

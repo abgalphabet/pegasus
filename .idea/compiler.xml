@@ -2,6 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="pega_main" target="1.8" />
+      <module name="pega_test" target="1.8" />
+      <module name="pegas_main" target="1.8" />
+      <module name="pegas_test" target="1.8" />
+      <module name="pegasus_main" target="1.8" />
+      <module name="pegasus_test" target="1.8" />
       <module name="wax_main" target="1.8" />
       <module name="wax_test" target="1.8" />
     </bytecodeTargetLevel>

@@ -1,4 +1,4 @@
-package wax.web;
+package pegasus.web;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
@@ -6,8 +6,7 @@ import org.restlet.Component;
 import org.restlet.Server;
 import org.restlet.data.Protocol;
 import org.restlet.ext.guice.RestletGuice;
-import sun.applet.Main;
-import wax.conf.MainModule;
+import pegasus.conf.MainModule;
 
 import java.net.URL;
 

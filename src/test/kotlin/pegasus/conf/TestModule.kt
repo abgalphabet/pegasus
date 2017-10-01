@@ -1,4 +1,4 @@
-package wax.conf
+package pegasus.conf
 
 import com.google.inject.AbstractModule
 import com.google.inject.Provides

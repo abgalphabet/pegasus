@@ -1,6 +1,6 @@
-package wax.web.fixture
+package pegasus.web.fixture
 
-import wax.web.TestApp
+import pegasus.web.TestApp
 
 open class ApiTestBase {
     val apis: Apis

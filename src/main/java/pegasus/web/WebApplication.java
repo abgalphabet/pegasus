@@ -1,4 +1,4 @@
-package wax.web;
+package pegasus.web;
 
 import com.typesafe.config.Config;
 import org.restlet.Application;
@@ -13,7 +13,8 @@ import org.restlet.security.Authorizer;
 import org.restlet.security.CertificateAuthenticator;
 import org.restlet.security.Enroler;
 import org.restlet.security.Role;
-import wax.web.resources.ConfResource;
+import pegasus.web.resources.ConfResource;
+import pegasus.web.resources.ConfResource;
 
 import javax.inject.Inject;
 

@@ -1,4 +1,4 @@
-package wax.web.resources
+package pegasus.web.resources
 
 import com.typesafe.config.Config
 import org.restlet.ext.json.JsonRepresentation

@@ -1,4 +1,4 @@
-package wax.web.fixture
+package pegasus.web.fixture
 
 import org.apache.http.HttpHost
 

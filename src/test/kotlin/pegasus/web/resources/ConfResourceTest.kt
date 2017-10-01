@@ -1,8 +1,8 @@
-package wax.web.resources
+package pegasus.web.resources
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
-import wax.web.fixture.ApiTestBase
+import pegasus.web.fixture.ApiTestBase
 
 class ConfResourceTest : ApiTestBase() {
 

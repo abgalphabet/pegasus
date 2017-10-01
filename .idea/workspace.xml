@@ -2,22 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22a76bed-1c29-45dc-aae4-3bf043ce9962" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_restlet_jse_org_restlet_2_3_11.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_restlet_jse_org_restlet_2_3_10.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_restlet_jse_org_restlet_ext_guice_2_3_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_restlet_jse_org_restlet_ext_guice_2_3_11.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_restlet_jse_org_restlet_ext_jackson_2_3_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_restlet_jse_org_restlet_ext_jackson_2_3_11.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_restlet_jse_org_restlet_ext_jetty_2_3_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_restlet_jse_org_restlet_ext_jetty_2_3_11.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_restlet_jse_org_restlet_ext_json_2_3_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_restlet_jse_org_restlet_ext_json_2_3_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/wax_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/wax_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/wax_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/wax_test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/pegasus.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/pegasus_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/pegasus_test.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/wax.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/wax_main.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/wax_test.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/wax/web/ChallengeAuthenticatorFactory.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/wax/web/MainApp.java" afterPath="$PROJECT_DIR$/src/main/java/pegasus/web/MainApp.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/wax/web/WebApplication.java" afterPath="$PROJECT_DIR$/src/main/java/pegasus/web/WebApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/kotlin/wax/conf/MainModule.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pegasus/conf/MainModule.kt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/kotlin/wax/web/resources/ConfResource.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pegasus/web/resources/ConfResource.kt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/kotlin/wax/conf/TestModule.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/pegasus/conf/TestModule.kt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/kotlin/wax/web/TestApp.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/pegasus/web/TestApp.kt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/kotlin/wax/web/fixture/Api.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/pegasus/web/fixture/Api.kt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/kotlin/wax/web/fixture/ApiTestBase.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/pegasus/web/fixture/ApiTestBase.kt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/kotlin/wax/web/fixture/Apis.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/pegasus/web/fixture/Apis.kt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/kotlin/wax/web/resources/ConfResourceTest.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/pegasus/web/resources/ConfResourceTest.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/wax/web/MainApp.java" afterPath="$PROJECT_DIR$/src/main/java/wax/web/MainApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/wax/web/WebApplication.java" afterPath="$PROJECT_DIR$/src/main/java/wax/web/WebApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/wax/web/resources/ConfResource.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/wax/web/resources/ConfResource.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -45,12 +51,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="wax" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="wax" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="pegasus" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -61,14 +62,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConfResource.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/wax/web/resources/ConfResource.kt">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-              <folding>
-                <element signature="e#27#304#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,14 +110,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="wax" />
+              <option name="name" value="pegasus" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="wax" />
+                <option name="name" value="pegasus" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
@@ -132,7 +131,7 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'wax'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'pegasus'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -142,7 +141,7 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'wax'." />
+                <option name="description" value="Displays the sub-projects of root project 'pegasus'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
@@ -152,12 +151,12 @@
                 <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'wax'. [incubating]" />
+                <option name="description" value="Displays the dependent components of components in root project 'pegasus'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'wax'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'pegasus'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -182,7 +181,7 @@
                 <option name="name" value="jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'wax'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'pegasus'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
@@ -196,7 +195,7 @@
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'wax'." />
+                <option name="description" value="Displays the tasks runnable from root project 'pegasus'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -225,7 +224,7 @@
                 <option name="name" value="compileTestKotlin" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'wax'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'pegasus'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -250,7 +249,7 @@
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'wax'." />
+                <option name="description" value="Displays all dependencies declared in root project 'pegasus'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -280,7 +279,7 @@
                 <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'wax'." />
+                <option name="description" value="Displays the properties of root project 'pegasus'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -294,9 +293,10 @@
         <entry key="$PROJECT_DIR$/../disruptor" value="2897348957000" />
         <entry key="$PROJECT_DIR$/../groovy-core" value="2845413460000" />
         <entry key="$PROJECT_DIR$/../kata/groovy" value="1437878269000" />
-        <entry key="$PROJECT_DIR$" value="4519048571000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3125071514" />
+        <entry key="$PROJECT_DIR$" value="4519847025000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3959061682" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="615277776" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="515199144" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -335,7 +335,7 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="wax" />
+              <option name="name" value="pegasus" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/announce" />
@@ -514,10 +514,11 @@
         <option value="$PROJECT_DIR$/src/test/kotlin/wax/web/resources/ConfResourceTest.kt" />
         <option value="$PROJECT_DIR$/src/main/java/wax/web/MainApp.kt" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_6.txt" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/wax/web/MainApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/wax/web/WebApplication.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/wax/web/resources/ConfResource.kt" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -547,187 +548,77 @@
         <subPane>
           <expand>
             <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pegasus" type="b2602c69:ProjectViewProjectNode" />
               <item name="wax" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wax" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pegasus" type="b2602c69:ProjectViewProjectNode" />
               <item name="wax" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pegasus" type="b2602c69:ProjectViewProjectNode" />
               <item name="wax" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pegasus" type="b2602c69:ProjectViewProjectNode" />
               <item name="wax" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pegasus" type="b2602c69:ProjectViewProjectNode" />
               <item name="wax" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pegasus" type="b2602c69:ProjectViewProjectNode" />
               <item name="wax" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="wax" type="462c0819:PsiDirectoryNode" />
+              <item name="pegasus" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pegasus" type="b2602c69:ProjectViewProjectNode" />
               <item name="wax" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="wax" type="462c0819:PsiDirectoryNode" />
+              <item name="pegasus" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="pegasus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wax" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="pegasus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wax" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.restlet.jse:org.restlet.ext.jetty:2.3.11" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.restlet.jse:org.restlet.ext.jetty:2.3.11" type="70bed36:NamedLibraryElementNode" />
-              <item name="org.restlet.ext.jetty-2.3.11.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.restlet.jse:org.restlet.ext.jetty:2.3.11" type="70bed36:NamedLibraryElementNode" />
-              <item name="org.restlet.ext.jetty-2.3.11.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="jetty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.restlet.jse:org.restlet.ext.jetty:2.3.11" type="70bed36:NamedLibraryElementNode" />
-              <item name="org.restlet.ext.jetty-2.3.11.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="jetty" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.restlet.jse:org.restlet:2.3.11" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.restlet.jse:org.restlet:2.3.11" type="70bed36:NamedLibraryElementNode" />
-              <item name="org.restlet-2.3.11.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.restlet.jse:org.restlet:2.3.11" type="70bed36:NamedLibraryElementNode" />
-              <item name="org.restlet-2.3.11.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="restlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.restlet.jse:org.restlet:2.3.11" type="70bed36:NamedLibraryElementNode" />
-              <item name="org.restlet-2.3.11.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="restlet" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.restlet.jse:org.restlet:2.3.11" type="70bed36:NamedLibraryElementNode" />
-              <item name="org.restlet-2.3.11.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="restlet" type="462c0819:PsiDirectoryNode" />
-              <item name="routing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wax" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.restlet.jse:org.restlet:2.3.11" type="70bed36:NamedLibraryElementNode" />
-              <item name="org.restlet-2.3.11.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="restlet" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="pegasus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wax" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -871,6 +762,17 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="wax" />
+      <envs />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -943,32 +845,31 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="807" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
     <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39790577" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="123" width="1240" height="610" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39790577" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1014,119 +915,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.restlet.jse/org.restlet/2.3.10/71379269306b0bfa86b1e9fb47b84838d9f0e944/org.restlet-2.3.10-sources.jar!/org/restlet/representation/Representation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="67" column="32" lean-forward="false" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
-          <folding>
-            <marker date="1506134102000" expanded="false" signature="0:890" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="936:1389" ph="..." />
-            <marker date="1506134102000" expanded="true" signature="1391:2689" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="2760:2851" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="2906:2980" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="3026:3078" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="3137:3198" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="3250:3277" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="3325:3387" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="3435:3545" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="3585:3891" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="3929:3968" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="3996:4007" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="4018:4024" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="4030:4127" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="4175:4431" ph="{...}" />
-            <marker date="1506134102000" expanded="true" signature="4437:4606" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="4676:4687" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="4727:4733" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="4739:4953" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="5033:5089" ph="{...}" />
-            <marker date="1506134102000" expanded="true" signature="5095:5237" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="5293:5304" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="5331:5337" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="5343:5530" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="5596:5607" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="5645:5651" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="5657:5889" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="5965:6280" ph="{...}" />
-            <marker date="1506134102000" expanded="true" signature="6286:6446" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="6498:6509" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="6534:6540" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="6546:7002" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="7068:7113" ph="{...}" />
-            <marker date="1506134102000" expanded="true" signature="7119:7406" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="7452:7658" ph="{...}" />
-            <marker date="1506134102000" expanded="true" signature="7664:7927" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="7962:7973" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="8011:8017" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="8023:8446" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="8555:8793" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="8840:8851" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="8870:8876" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="8882:9041" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="9081:9092" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="9111:9117" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="9123:9413" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="9449:9460" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="9487:9493" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="9499:9822" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="9850:9861" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="9879:9885" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="9891:10326" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="10391:10814" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="10914:11156" ph="{...}" />
-            <marker date="1506134102000" expanded="true" signature="11162:11628" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="11654:11665" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="11682:11688" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="11694:12013" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="12083:12373" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="12421:12728" ph="{...}" />
-            <marker date="1506134102000" expanded="true" signature="12734:12920" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="12954:12965" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="12987:12993" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="12999:13701" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="13734:13745" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="13787:13793" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="13799:13971" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="14000:14011" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="14033:14039" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="14045:14537" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="14572:14746" ph="{...}" />
-            <marker date="1506134102000" expanded="true" signature="14752:15193" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="15226:15237" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="15261:15267" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="15273:16743" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="16769:16780" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="16800:16806" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="16812:16967" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="17015:17026" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="17053:17059" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="17065:17309" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="17367:17378" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="17399:17405" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="17411:17596" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="17652:17663" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="17694:17700" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="17706:18022" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="18077:18088" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="18149:18155" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="18161:18370" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="18449:18928" ph="{...}" />
-            <marker date="1506134102000" expanded="true" signature="18934:19236" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="19274:19285" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="19304:19310" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="19316:19694" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="19737:19748" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="19773:19779" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="19785:19962" ph="/**...*/" />
-            <marker date="1506134102000" expanded="false" signature="20012:20023" ph=" { " />
-            <marker date="1506134102000" expanded="false" signature="20054:20060" ph=" }" />
-            <marker date="1506134102000" expanded="true" signature="20066:20618" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="20698:21031" ph="/**...*/" />
-            <marker date="1506134102000" expanded="true" signature="21168:21714" ph="/**...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.restlet.jse/org.restlet/2.3.10/71379269306b0bfa86b1e9fb47b84838d9f0e944/org.restlet-2.3.10-sources.jar!/org/restlet/resource/Get.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1163,20 +951,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/resources/application.local.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.local.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/resources/application.local.conf" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.local.conf" />
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/wax/web/resources/TestConfResource.kt" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.restlet.jse/org.restlet/2.3.10/71379269306b0bfa86b1e9fb47b84838d9f0e944/org.restlet-2.3.10-sources.jar!/org/restlet/util/ServerList.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1478,40 +1254,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/wax/web/fixture/Api.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/pegasus/web/fixture/Api.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding>
-            <marker date="1506763071000" expanded="false" signature="32:101" ph="..." />
-            <marker date="1506763071000" expanded="true" signature="131:294" ph="{...}" />
-            <marker date="1506763071000" expanded="true" signature="143:150" ph="{...}" />
-            <marker date="1506763071000" expanded="true" signature="175:292" ph="{...}" />
+            <marker date="1506857761000" expanded="false" signature="36:105" ph="..." />
+            <marker date="1506857761000" expanded="true" signature="147:154" ph="{...}" />
+            <marker date="1506857761000" expanded="true" signature="179:296" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/wax/web/fixture/Apis.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/pegasus/web/fixture/Apis.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
-            <marker date="1506763071000" expanded="true" signature="94:276" ph="{...}" />
-            <marker date="1506763071000" expanded="true" signature="124:172" ph="{...}" />
-            <marker date="1506763071000" expanded="true" signature="221:274" ph="{...}" />
+            <marker date="1506857761000" expanded="true" signature="128:176" ph="{...}" />
+            <marker date="1506857761000" expanded="true" signature="225:278" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/wax/conf/TestModule.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/pegasus/conf/TestModule.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
           <folding>
-            <marker date="1506763071000" expanded="true" signature="25:201" ph="..." />
-            <marker date="1506763071000" expanded="true" signature="239:409" ph="{...}" />
-            <marker date="1506763071000" expanded="true" signature="270:277" ph="{...}" />
-            <marker date="1506763071000" expanded="true" signature="340:407" ph="{...}" />
+            <marker date="1506857847000" expanded="true" signature="29:205" ph="..." />
+            <marker date="1506857847000" expanded="true" signature="274:281" ph="{...}" />
+            <marker date="1506857847000" expanded="true" signature="344:411" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1520,18 +1293,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/wax/web/fixture/ApiTestBase.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/pegasus/web/fixture/ApiTestBase.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <marker date="1506763071000" expanded="true" signature="72:318" ph="{...}" />
-            <marker date="1506763071000" expanded="true" signature="138:313" ph="{...}" />
-            <marker date="1506763071000" expanded="true" signature="232:307" ph="{...}" />
+            <marker date="1506857761000" expanded="true" signature="146:321" ph="{...}" />
+            <marker date="1506857761000" expanded="true" signature="240:315" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1540,47 +1311,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/test/resources/application.local.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/test/resources/application.local.conf" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.prod.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/wax/conf/MainModule.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/pegasus/conf/MainModule.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
-            <marker date="1506762770000" expanded="true" signature="25:269" ph="..." />
-            <marker date="1506762770000" expanded="true" signature="307:554" ph="{...}" />
-            <marker date="1506762770000" expanded="true" signature="339:426" ph="{...}" />
-            <marker date="1506762770000" expanded="true" signature="485:551" ph="{...}" />
+            <marker date="1506857847000" expanded="true" signature="29:281" ph="..." />
+            <marker date="1506857847000" expanded="true" signature="351:438" ph="{...}" />
+            <marker date="1506857847000" expanded="true" signature="497:563" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/wax/web/resources/ConfResourceTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/pegasus/web/resources/ConfResourceTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
-            <marker date="1506763071000" expanded="false" signature="34:133" ph="..." />
-            <marker date="1506763071000" expanded="true" signature="174:301" ph="{...}" />
-            <marker date="1506763071000" expanded="true" signature="205:299" ph="{...}" />
+            <marker date="1506857761000" expanded="false" signature="38:141" ph="..." />
+            <marker date="1506857761000" expanded="true" signature="213:307" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1589,7 +1349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1719,7 +1478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1869,19 +1627,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/wax/web/TestApp.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/pegasus/web/TestApp.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <marker date="1506763071000" expanded="false" signature="24:283" ph="..." />
-            <marker date="1506763071000" expanded="false" signature="24:309" ph="..." />
-            <marker date="1506763071000" expanded="true" signature="325:1146" ph="{...}" />
-            <marker date="1506763071000" expanded="true" signature="446:798" ph="{...}" />
-            <marker date="1506763071000" expanded="true" signature="816:963" ph="{...}" />
-            <marker date="1506763071000" expanded="true" signature="980:1012" ph="{...}" />
-            <marker date="1506763071000" expanded="true" signature="1035:1142" ph="{...}" />
-            <marker date="1506763071000" expanded="true" signature="1095:1136" ph="{...}" />
+            <marker date="1506857847000" expanded="false" signature="28:291" ph="..." />
+            <marker date="1506857847000" expanded="false" signature="28:321" ph="..." />
+            <marker date="1506857847000" expanded="true" signature="458:810" ph="{...}" />
+            <marker date="1506857847000" expanded="true" signature="828:975" ph="{...}" />
+            <marker date="1506857847000" expanded="true" signature="992:1024" ph="{...}" />
+            <marker date="1506857847000" expanded="true" signature="1047:1154" ph="{...}" />
+            <marker date="1506857847000" expanded="true" signature="1107:1148" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1890,7 +1647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1942,27 +1698,6 @@
             <marker date="1506134103000" expanded="true" signature="7705:7819" ph="{...}" />
             <marker date="1506134103000" expanded="true" signature="7902:9479" ph="{...}" />
             <marker date="1506134103000" expanded="true" signature="8532:8747" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding>
-            <marker date="1506785931000" expanded="true" signature="55:357" ph="{...}" />
-            <marker date="1506785931000" expanded="true" signature="219:229" ph="{" />
-            <marker date="1506785931000" expanded="true" signature="243:249" ph="}" />
-            <marker date="1506785931000" expanded="true" signature="267:277" ph="{" />
-            <marker date="1506785931000" expanded="true" signature="349:355" ph="}" />
-            <marker date="1506785931000" expanded="true" signature="444:480" ph="{...}" />
-            <marker date="1506785931000" expanded="true" signature="495:1499" ph="{...}" />
-            <marker date="1506785931000" expanded="true" signature="1219:1413" ph="..." />
-            <marker date="1506785931000" expanded="true" signature="1515:1521" ph="{" />
-            <marker date="1506785931000" expanded="true" signature="1552:1554" ph="}" />
-            <marker date="1506785931000" expanded="true" signature="1573:1579" ph="{" />
-            <marker date="1506785931000" expanded="true" signature="1610:1612" ph="}" />
           </folding>
         </state>
       </provider>
@@ -2074,11 +1809,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <marker date="1506141195000" expanded="false" signature="25:279" ph="..." />
-            <marker date="1506141195000" expanded="true" signature="736:2306" ph="{...}" />
-            <marker date="1506141195000" expanded="true" signature="1900:2143" ph="//..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2661,18 +2392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wax/web/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" column="70" lean-forward="false" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
-          <folding>
-            <marker date="1506854533000" expanded="false" signature="25:292" ph="..." />
-            <marker date="1506854533000" expanded="true" signature="378:415" ph="{...}" />
-            <marker date="1506854533000" expanded="true" signature="458:1766" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.restlet.jse/org.restlet/2.3.11/225a73930538908435ac24a831b11209b6c00a60/org.restlet-2.3.11-sources.jar!/org/restlet/routing/Filter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -2762,28 +2481,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wax/web/WebApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/pegasus/web/resources/ConfResource.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        <state relative-caret-position="195">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding>
-            <marker date="1506855545000" expanded="true" signature="25:592" ph="..." />
-            <marker date="1506855545000" expanded="true" signature="790:898" ph="{...}" />
-            <marker date="1506855545000" expanded="true" signature="940:2091" ph="{...}" />
-            <marker date="1506855545000" expanded="true" signature="1268:1657" ph="{...}" />
-            <marker date="1506855545000" expanded="true" signature="1346:1647" ph="{...}" />
-            <marker date="1506855545000" expanded="true" signature="1661:2028" ph="//..." />
+            <marker date="1506857761000" expanded="true" signature="38:308" ph="..." />
+            <marker date="1506857761000" expanded="true" signature="385:687" ph="{...}" />
+            <marker date="1506857761000" expanded="true" signature="430:684" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/wax/web/resources/ConfResource.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pegasus/web/WebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="377">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <element signature="e#27#304#0" expanded="true" />
+            <marker date="1506857761000" expanded="true" signature="29:643" ph="..." />
+            <marker date="1506857761000" expanded="true" signature="841:949" ph="{...}" />
+            <marker date="1506857761000" expanded="true" signature="991:2142" ph="{...}" />
+            <marker date="1506857761000" expanded="true" signature="1319:1708" ph="{...}" />
+            <marker date="1506857761000" expanded="true" signature="1397:1698" ph="{...}" />
+            <marker date="1506857761000" expanded="true" signature="1712:2079" ph="//..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pegasus/web/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1506857847000" expanded="false" signature="29:276" ph="..." />
+            <marker date="1506857847000" expanded="true" signature="362:399" ph="{...}" />
+            <marker date="1506857847000" expanded="true" signature="442:1750" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
